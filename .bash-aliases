@@ -46,3 +46,11 @@ alias ap='sudo apt purge'
 alias au='sudo apt update'
 alias ag='sudo apt upgrade'
 alias ai='sudo apt install'
+
+# dpkg aliases
+alias dl='dpkg -L'
+
+# wget aliases
+alias wg="wget -4"
+alias wc="wget -4 -c"
+alias ws="wget -4 --spider"
