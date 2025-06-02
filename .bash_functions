@@ -1,18 +1,22 @@
-### Read man pages with vim
+#   ___ _   _ _  _  ___ _____ ___ ___  _  _ ___ 
+#  | __| | | | \| |/ __|_   _|_ _/ _ \| \| / __|
+#  | _|| |_| | .` | (__  | |  | | (_) | .` \__ \
+#  |_|  \___/|_|\_|\___| |_| |___\___/|_|\_|___/
+#
+
+# Read man pages with vim
 vman () {
     man $@ | vim -MR  -c ":set syntax=man" -
 }
 
-
-### Restart applications
+# Restart applications
 restart ()
 {
     killall $@
     setsid -f $@
 }
 
-
-### Extract archives
+# Extract archives
 ex ()
 {
   if [ -f "$@" ] ; then
@@ -37,4 +41,3 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
-
