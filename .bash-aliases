@@ -53,6 +53,11 @@ alias ai='sudo apt install'
 alias dl='dpkg -L'
 
 # wget aliases
-alias wg="wget -4"
-alias wc="wget -4 -c"
-alias ws="wget -4 --spider"
+alias wg='wget -4'
+alias wc='wget -4 -c'
+alias ws='wget -4 --spider'
+
+# ln aliases
+alias lns='ln -s'
+alias lnr='ln -sr'
+alias lnf='ln -srf'
