@@ -26,7 +26,7 @@ alias gcm='git commit -m'
 
 # yt-dlp aliases
 alias yt='yt-dlp -4'
-alias ytf='yt -F'
+alias ytf='yt-dlp -4 -F'
 
 alias yt-all='yt --embed-thumbnail \
                  --embed-metadata \
@@ -35,9 +35,11 @@ alias yt-all='yt --embed-thumbnail \
                  --embed-info-json'
 
 # make aliases
+alias mc='make clean'
 alias ma='make all -j2'
 alias mu='sudo make uninstall'
 alias mi='sudo make install -j2'
+alias mr='make clean && make all -j2 && sudo make install -j2'
 
 # apt aliases
 alias ap='sudo apt purge'
