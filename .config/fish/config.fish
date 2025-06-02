@@ -25,3 +25,6 @@ fish_config prompt choose scales
 
 # Autostart the fastfetch
 echo && fastfetch --config neofetch.jsonc && echo
+
+# Import lfcd script
+. /usr/share/doc/lf/examples/lfcd.fish
