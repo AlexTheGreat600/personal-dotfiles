@@ -1,4 +1,4 @@
-#     _   _    ___   _   ___ ___ ___ 
+#     _   _    ___   _   ___ ___ ___
 #    /_\ | |  |_ _| /_\ / __| __/ __|
 #   / _ \| |__ | | / _ \\__ \ _|\__ \
 #  /_/ \_\____|___/_/ \_\___/___|___/
@@ -7,12 +7,18 @@
 # system aliases
 alias q='exit'
 alias e='$EDITOR'
+alias l='ls -lah'
 alias vnano='nano -Rv'
 alias grepc='grep --color'
 alias cr='tput reset && clear && echo'
 alias r='tput reset && echo && neofetch'
+alias mkcd='_(){ mkdir -p $1; cd $1; }; _'
 alias lt='ls --human-readable --size -1 -S --classify'
 alias im-comment='magick identify -quiet -format "%c"'
+
+# cd aliases
+alias ..='cd ..'
+alias ...='cd ../..'
 
 # git aliases
 alias gr='git rm'
@@ -61,3 +67,12 @@ alias ws='wget -4 --spider'
 alias lns='ln -s'
 alias lnr='ln -sr'
 alias lnf='ln -srf'
+
+# npm aliases
+alias np='npm'
+alias npu='npm update'
+alias nps='npm search'
+alias npi='npm install'
+alias npug='npm update -g'
+alias npig='npm install -g'
+alias npis='npm install --save'
