@@ -1,0 +1,4 @@
+# colour of the caret(the blinking cursor), only first and third argument is interpreted
+# set the third argument to true to change the caret into a block caret
+# caret=caret
+caret_width=3
