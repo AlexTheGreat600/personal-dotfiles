@@ -28,6 +28,12 @@ alias gcm='git commit -m'
 alias yt='yt-dlp -4'
 alias ytf='yt -F'
 
+alias yt-all='yt --embed-thumbnail \
+                 --embed-metadata \
+                 --embed-subs \
+                 --embed-chapters \
+                 --embed-info-json'
+
 # make aliases
 alias ma='make all -j2'
 alias mi='sudo make install'
