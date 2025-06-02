@@ -36,8 +36,8 @@ alias yt-all='yt --embed-thumbnail \
 
 # make aliases
 alias ma='make all -j2'
-alias mi='sudo make install'
 alias mu='sudo make uninstall'
+alias mi='sudo make install -j2'
 
 # apt aliases
 alias ap='sudo apt purge'
