@@ -76,3 +76,6 @@ alias npi='npm install'
 alias npug='npm update -g'
 alias npig='npm install -g'
 alias npis='npm install --save'
+
+# other aliases
+alias lf="lfrun"
