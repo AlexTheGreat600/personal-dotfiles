@@ -101,13 +101,13 @@ alias l='ls -CF'
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
 if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+    . ~/.bash-aliases
 fi
 
 # Function definitions.
 
 if [ -f ~/.bash_functions ]; then
-    . ~/.bash_functions
+    . ~/.bash-functions
 fi
 
 # Default parameter to send to the "less" command
