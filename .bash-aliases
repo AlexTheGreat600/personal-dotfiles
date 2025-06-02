@@ -8,6 +8,7 @@
 alias q='exit'
 alias e='$EDITOR'
 alias l='ls -lah'
+alias bat='batcat'
 alias vnano='nano -Rv'
 alias grepc='grep --color'
 alias cr='tput reset && clear && echo'
@@ -78,4 +79,4 @@ alias npig='npm install -g'
 alias npis='npm install --save'
 
 # other aliases
-alias lf="lfrun"
+alias lf='lfrun'
