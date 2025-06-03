@@ -1,0 +1,15 @@
+# ███████╗██╗  ██╗██╗  ██╗██╗  ██╗██████╗
+# ██╔════╝╚██╗██╔╝██║  ██║██║ ██╔╝██╔══██╗
+# ███████╗ ╚███╔╝ ███████║█████╔╝ ██║  ██║
+# ╚════██║ ██╔██╗ ██╔══██║██╔═██╗ ██║  ██║
+# ███████║██╔╝ ██╗██║  ██║██║  ██╗██████╔╝
+# ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝
+
+super + alt + {a, d, n, i, s, v, w}
+    pulsar-{applications,documents,music,pictures,sources,videos,wallpapers}
+
+super + alt + {m, q, k, o, x, p, shift + p}
+    pulsar-{manpages,websearch,keybindings,notes,xresources,termrun,termrun -p}
+
+super + alt + {b, c}
+    pulsar-{webbookmarks,cmdbookmarks}

@@ -1,0 +1,3 @@
+backlight-brightness -s 20
+backlight-brightness -s 50
+backlight-brightness -s 100
