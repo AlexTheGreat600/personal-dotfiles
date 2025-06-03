@@ -3,7 +3,7 @@
 ## Only use ONE (or neither)
 ## Simple script to check for connectivity (NCA). 
 ## If no network connection is detected, activate wi-fi networks, open connman and go straight to the wi-fi connections tab.
-network-check-antix &
+#network-check-antix &
 ## OR More comples tool (NCR) that provides on screen info while waiting for a network connection to be established.
 ## NRS reports in both GUI and non-GUI environments. 
 #network-readiness-state &
@@ -25,7 +25,7 @@ pipewire &
 automount-antix &
 
 ## Puts a flag on the taskbar to show which keyboard is being used if more than 1 keyboard layout is detected
-fbxkb-start &
+#fbxkb-start &
 
 ## Uncomment for easy search from the taskbar
 #search-bar-icon &
