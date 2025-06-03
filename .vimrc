@@ -29,4 +29,4 @@ set tabstop=4                   " One tab == four spaces.
 
 " Lightline settings
 set noshowmode
-let g:lightline = { 'colorscheme': 'one' }
+let g:lightline = { 'colorscheme': 'solarized' }
